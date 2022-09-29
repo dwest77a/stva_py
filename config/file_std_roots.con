@@ -1,0 +1,42 @@
+## File standard roots Configuration File
+# Lists all separate components of a file root path
+
+## --- C3S File Paths --- ##
+% c3s_root_dir   : /gws/nopw/j04/cds_c3s_cloud/public/c3s_312b_lot1/data/              %
+% slstra_path    : /c3s/icdr/r01/                                                      %
+% slstrb_path    : /c3s/icdr/r01/                                                      %
+% aatsr_path     : /esa_cci/tcdr/r01/                                                  %
+% atsr2_path     : /esa_cci/tcdr/r01/                                                  %
+
+% c3s_root_file  : C3S-312bL1-L3C-                                                     %
+% slstra_file    : -SLSTR_ORAC_Sentinel-3a_{}_fv3.1.nc                                 %
+% aatsr_file     : -AATSR_ORAC_ENVISAT_{}_fv3.0.nc, -AATSR_ORAC_Envisat_{}_fv3.0.nc    %
+% atsr2_file     : -ATSR2_ORAC_ERS2_{}_fv3.0.nc                                        %
+% slstrb_file    : -SLSTR_ORAC_Sentinel-3b_{}_fv3.1.nc                                 %
+
+
+% cris_root_dir  : /gws/nopw/j04/rsgnceo/Data/projects/iasi_mhs/output/l3/v2p3/output_ghg_cv9_v12_lam_fgsnwp_nobc_newbc_rbc_ram2_rem20-ncam_rcl5_raer6st_rmg_oap_cnv2_o3f113_csyn_swir2/npp/ %
+% cris_root_file : ral-l3h-tqoe-cris_atms_npp-tir_mw-{}-{}_reg3-v1000.nc               %
+
+% iasi_pre16_dir : /gws/pw/j05/rsg_share/public/transfer/barry/6ad76b04-b3df-11eb-a4d3-024ad8e814ad/iasi_l3/nh3_v00.01.1/ %
+% iasi_post16_dir: /gws/pw/j05/rsg_share/public/transfer/barry/6ad76b04-b3df-11eb-a4d3-024ad8e814ad/iasi_l3/nh3_v00.01.2/ %
+% iasi_nh3_adj   : /gws/pw/j05/rsg_share/public/transfer/barry/6ad76b04-b3df-11eb-a4d3-024ad8e814ad/iasi_l3/nh3_v00.02/ %
+
+% iasi_root_file : ral-l3h-tqoe-iasi_mhs_amsu_metopa-tir_mw-{}-{}_reg3-v1000.nc        %
+
+%
+
+
+
+## --- Variable Family Codes --- ##
+% srb            : SRB   %
+% erb            : ERB   %
+% cld            : CLOUD %
+
+%FileDirectory: /gws/nopw/j04/cds_c3s_cloud/public/c3s_312b_lot1/data/{}/esa_cci/tcdr/r01/{}%
+%GeneralFile: C3S-312bL1-L3C-%
+%FileNames: -AATSR_ORAC_ENVISAT_{}_fv3.0.nc, -AATSR_ORAC_Envisat_{}_fv3.0.nc, -ATSR2_ORAC_ERS2_{}_fv3.0.nc%
+
+%srb:SRB%
+%erb:ERB%
+%cld:CLOUD%

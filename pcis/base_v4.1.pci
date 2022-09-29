@@ -1,0 +1,41 @@
+## PCI version 4.1 - toolv4.1.py
+% TimeFormat : Months %
+% TimeIncrement : Monthly %
+% TimeGroupSize : 1 %
+% Calculate : Average %
+% MapGraph : map %
+% FigureNumber : 1 %
+% OutFigs : Single %
+% DoParts : Calculate, Plot %
+% DayNight : day %
+% Years : 1999, 2010 %
+% Months : 6,8 %
+% Days : 1, 1 %
+% AnomalyYears : 2010, 2010 %
+% AnomalyMonths : 12,12 %
+% AnomalyDays :  %
+% ecv : srb  %
+% ecv-set : srb %
+% Label:  %
+% Family : esa_cci  %
+% Instrument : aatsr %
+% SpecialCaseKey : None %
+% MapCon : n %
+% GraphCon : n %
+% MapBounds : 49.5, 60.5, -10, 2, 49.5, 60.5, -10, 2 %
+% GraphBounds : 49.5, 60.5, -10, 2, 49.5, 60.5, -10, 2 %
+% LandSea : land+sea, land+sea %
+% ShowOutput : y %
+% PNGExport : n %
+% GraphType : Variable %
+% GraphFormat : Straight %
+% GraphErrors : y %
+% NBins : 20 %
+% Color : jet %
+% Alpha : 0.7 %
+% ScaleFactor : 1, 1000 %
+% ScaleOffset : 0, 0 %
+% ScaleCoeff :  , _ppbv  %
+% ValueCon : n, n %
+% ValueBounds :  10, 30, -2, 2, 0, 0.4, -2, 2 %
+% SaveTo : /home/users/dwest77/Documents/ECV_Images/Output %

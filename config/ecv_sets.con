@@ -1,0 +1,15 @@
+## ECV Sets Configuration File
+# ECVS: SRB, ERB, CLD
+
+%srb: sis, srs, sns, sdl, sol, snl, srb%
+%erb: cloud_count, rsf, olr%
+%cld: liquid_count, liquid_count_day, liquid_count_night, ice_count, ice_count_day, ice_count_night, &
+      cfc, cfc_unc, &
+      ctp, ctp_std, ctp_unc, ctp_cor, &
+      cth, cth_std, cth_unc, cth_cor, &
+      ctt, ctt_std, ctt_unc, ctt_cor, &
+      cer, cer_std, cer_unc, cer_cor, & 
+      cot, cot_std, cot_cor, cot_unc, &
+      lwp, lwp_std, lwp_unc, lwp_cor, &
+      iwp, iwp_std, iwp_cor, iwp_unc, &
+      cth_day%
