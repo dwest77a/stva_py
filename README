@@ -1,0 +1,4 @@
+Toolv4.1.py
+ - Uses numpy for data array storing
+ - Open files using netcdf4 python library
+ - Plot using matplotlib
